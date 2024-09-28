@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+body{
+   /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);*/
+    background: linear-gradient(90deg,rgba(9,9,121,1), rgba(0,212,255,1) ) ;
+    font-size: 15pt;
+}
+#header{
+    font-family: "Roboto Slab", serif;
+height: 10vh;
+color: white;
+text-align: center;
+
+}
+
+#main{
+    font-family: "Roboto Serif", serif;
+    font-weight: 500;
+    text-align: justify;
+    margin: auto;
+    background:#f1f1f1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.448);
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+#resultado{
+    margin-top: 70px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+footer{
+    font-family: "Roboto Serif", serif;
+    text-align: center;
+    color: white;
+    
+}
